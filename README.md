@@ -1,7 +1,7 @@
 # SystemVerilogCSP
 SystemVerilog Library for Modeling Asynchronous Circuits
 
-SystemVerilogCSP is a SystemVerilog package for modeling channel-based digital asynchronous circuits. A SystemVerilog interface is used to model CSP-like communication events. The interfaces enable explicit handshaking of channel wires as well as abstract CSP events. This enables abstract connections between modules that are described at different levels of abstraction facilitating both verification and design.
+SystemVerilogCSP (SVC) is a SystemVerilog package for modeling channel-based digital asynchronous circuits. A SystemVerilog interface is used to model CSP-like communication events. The interfaces enable explicit handshaking of channel wires as well as abstract CSP events. This enables abstract connections between modules that are described at different levels of abstraction facilitating both verification and design.
 
 Features:
 
@@ -31,5 +31,6 @@ module full_buffer (interface left, interface right);
 endmodule
 ```
 
-# Related Paper
+# More Info:
 Related paper: Arash Saifhashemi and Peter A. Beerel. [SystemVerilogCSP:  Modeling Digital Asynchronous Circuits Using SystemVerilog Interfaces. CPA-2011: WoTUG-33, pages 287–302. IOS Press, 2011 site] (http://wotug.kent.ac.uk/papers/CPA-2011/SaifhashemiBeerel11/SaifhashemiBeerel11.pdf)
+
