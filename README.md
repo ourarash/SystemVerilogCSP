@@ -11,7 +11,9 @@ Features:
 - Split communication
 
 
-#Example:
+# Example:
+Here is a simple full buffer where send and receive actions use the abstract Send and Receive functions calls on left and right channels. See examples.sv for more samples.
+
 ```systemverilog
 //Sample full buffer module
 module full_buffer (interface left, interface right);
