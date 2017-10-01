@@ -30,3 +30,6 @@ module full_buffer (interface left, interface right);
   end
 endmodule
 ```
+
+# Related Paper
+Related paper: Arash Saifhashemi and Peter A. Beerel. [SystemVerilogCSP:  Modeling Digital Asynchronous Circuits Using SystemVerilog Interfaces. CPA-2011: WoTUG-33, pages 287–302. IOS Press, 2011 site] (http://wotug.kent.ac.uk/papers/CPA-2011/SaifhashemiBeerel11/SaifhashemiBeerel11.pdf)
